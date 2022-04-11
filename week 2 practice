@@ -1,0 +1,277 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM7e9I+szW5ZaP+xaDr7Kef",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NavaathManish/NavaathManish/blob/main/week%202%20practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "XeF1pWI8iI85"
+      },
+      "outputs": [],
+      "source": [
+        "b=25"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "day='saturday'\n",
+        "day[2]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "P1kkfqo3iizj",
+        "outputId": "fd61a9b1-acf8-4556-d8ee-669b09ad48af"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'t'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "greeting= \"ds15\"\n",
+        "listener= \"manish\"\n",
+        "print(greeting+ ' '+ listener)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VH3XzsNfk4vY",
+        "outputId": "0f95c2c5-6356-4cff-b9dd-99f184a3d687"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ds15 manish\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "DOB = '2/04/2022'\n",
+        "spl = DOB.split('/')\n",
+        "print(spl)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sHL4dIu2lehg",
+        "outputId": "66ef0eb6-0281-4190-f60d-4c407dc045cb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['2', '04', '2022']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "y = 10\n",
+        "z = 5\n",
+        "print(x!=y)\n",
+        "print(y>z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NPsKTaOot0Qh",
+        "outputId": "272162dc-3518-4603-c4e5-5af8d337af92"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Score =int(input())\n",
+        "if Score >60 :\n",
+        "  print(\"passed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wpT2pROh2HJZ",
+        "outputId": "8b363522-46bd-4c83-c721-91a4b3f12767"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "90\n",
+            "passed\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Score = int(input( ))\n",
+        "if score>60:\n",
+        "  print(\" student is passed \")\n",
+        "else:\n",
+        "    print(\"student is failed\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q62E6yu3At9K",
+        "outputId": "913b43e5-cc86-496e-a2cd-b8b1756249a4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "45\n",
+            " student is passed \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "python = 4\n",
+        "statistics = 599\n",
+        "if python and statistics>60:\n",
+        "  print(\"student is passed\")\n",
+        "else :\n",
+        "  print(\"student is failed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NKOGjEghDj0p",
+        "outputId": "03862b49-8a6a-4fb0-c4f1-bb6eb04730d1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "student is passed\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score = int(input(\"please enter the score\"))\n",
+        "if score > 60:\n",
+        "  print(\"student is passed\")\n",
+        "elif 51<score < 60:\n",
+        "  print (\"student is passed with grace marks\")\n",
+        "else :\n",
+        "  print(\"student is failed\")\n",
+        "    \n",
+        "  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IIoR1cjgEp1j",
+        "outputId": "095a911f-df39-4d93-b20a-c64a7b8ff136"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "please enter the score54\n",
+            "student is passed with grace marks\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "27IXBVkiHnsb"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
